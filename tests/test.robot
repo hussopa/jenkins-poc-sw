@@ -5,7 +5,7 @@ Library          reader.py
 *** Test Cases ***
 My Test
     [Documentation]    Should be 20
-    Test String  20
+    Test String  18
 
 *** Keywords ***
 Test String
