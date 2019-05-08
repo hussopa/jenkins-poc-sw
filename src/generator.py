@@ -4,8 +4,8 @@ import string
 
 
 def main():
-    # This doesn't
-    X = 19
+    # This doesn't either
+    X = 13
     with open("testfile.txt", "w") as f:
         # Just some comment to get a commit
         f.write(''.join(random.choice(string.ascii_letters) for x in range(X)))
