@@ -4,8 +4,8 @@ import string
 
 
 def main():
-    # more bad
-    X = 15
+    # mooooore bad
+    X = 14
     with open("testfile.txt", "w") as f:
         # Just some comment to get a commit
         f.write(''.join(random.choice(string.ascii_letters) for x in range(X)))
